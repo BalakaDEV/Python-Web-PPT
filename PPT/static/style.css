@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(146, 146, 123);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(95, 90, 83);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(95, 90, 83); 
+}
+
+a {
+    margin: 0;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 10px;
+    top: 13px;
+    float: left;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(32, 32, 31);
+    top: 700px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(3, 3, 3);
+}
+
+img {
+    width:50px; /* you can use % */
+    height: auto;
+}
+
+button {
+    display: inline-block;
+    width:5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(95, 90, 83);;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #bdadad;
+    font-size: 18px;
+}
+
+.pe {
+    position: absolute;
+    left: 635px;
+}
+
+.pa {
+    position: absolute;
+    left: 735px;
+}
+
+.te {
+    position: absolute;
+    left: 835px;
+}
+
+tr {
+    background-color: transparent;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.git {
+    width: 20px;
+    display: inline-block;
+}
+
+
+@media (max-width: 600px) {
+    .item-section, .img-section, .text-section {
+        width: 100%;
+    }
+}
+
+    
+

@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>PPT</title>
+    <link rel="sortcut icon" href="https://media.discordapp.net/attachments/799515684278632468/896606357501927434/papel.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+</head>
+
+
+<nav>
+    <a href="/sobre"> Sobre</a>&ensp;
+    <a href="/contato"> Contato</a>
+</nav>
+
+
+<STYLE>A {text-decoration: none;} </STYLE>
+<body>
+    <body onselectstart="return false"></body> <!--Bloquear seleção de texto -->
+    <h1>Pedra Papel Tesoura</h1>
+    <a href="/">
+        <center><div class="img"><img src="https://media.discordapp.net/attachments/799515684278632468/897217965274062848/pedra-papel-tesoura.png"></div></center>
+    </a>
+    <h2>Escolha sua jogada</h2>
+</body>
+
+<center>
+    <form action="/Pedra" method="POST">
+        <button class="pe">Pedra</button>
+    </form>
+    <form action="/Papel" method="POST">
+        <button class="pa">Papel</button>
+    </form>
+    <form action="/Tesoura" method="POST">
+        <button class="te">Tesoura</button>
+    </form>
+</center>
+
+<br>
+
+<p>Oponente: {{comp}}</p>
+<p>Resultado: {{msg}}</p>
+
+<!-- <footer>Created By: Balaka</footer> -->
+
+</html>
